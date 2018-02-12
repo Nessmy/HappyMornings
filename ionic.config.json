@@ -1,0 +1,8 @@
+{
+  "name": "HappyMornings",
+  "app_id": "fd60a278",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
