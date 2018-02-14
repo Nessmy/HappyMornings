@@ -1,12 +1,26 @@
 page-home {
     .wrapper {
         text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
     }
 
-    .button {
-        position: absolute;
-        top: 50%;
-        left: 35%;
-        border-width: 3px;
+    button {
+        border: 5px solid white;
+        border-radius: 100px;
+        height: 120px;
+        width: 120px;
+        background-color: transparent;
+        color: white;
+        font-size: 1.5em;
+        transition: 3s;
+    }
+
+    button:focus {
+        background-color: white;
     }
 }
+
+// ion-button round color="white" outline icon-end
