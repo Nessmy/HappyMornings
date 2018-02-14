@@ -19,7 +19,11 @@ page-home {
     }
 
     button:focus {
-        background-color: white;
+        background-color: rgb(40, 50, 80);
+        height: 100%;
+        width: 100%;
+        border-color: transparent;
+        color: transparent;
     }
 }
 
