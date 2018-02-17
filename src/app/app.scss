@@ -20,3 +20,32 @@
     // background-color: rgb(28, 28, 107);
     background-color: rgb(40, 50, 80);
 }
+
+page-home {
+    .wrapper {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+
+    .button {
+        border: 5px solid white;
+        border-radius: 100px;
+        height: 120px;
+        width: 120px;
+        background-color: transparent;
+        color: white;
+        font-size: 1.5em;
+        transition: 1.5s;
+    }
+
+    .button:focus {
+        background-color: rgb(40, 50, 80);
+        // height: 0%;
+        // width: 0%;
+        border-color: transparent;
+        color: transparent;
+    }
+}
